@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcherC7AccessControl", "ArcherC7AccessControl.csproj", "{D0307BE2-517B-41AA-BC8E-0C1C9F159FA9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcherC7AccessControl", "src\ArcherC7AccessControl.csproj", "{D0307BE2-517B-41AA-BC8E-0C1C9F159FA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dist", "dist", "{048169AC-784F-49A1-9DE2-320E21A17E11}"
+	ProjectSection(SolutionItems) = preProject
+		dist\ArcherC7AccessControl.exe = dist\ArcherC7AccessControl.exe
+		dist\ArcherC7AccessControl.exe.config = dist\ArcherC7AccessControl.exe.config
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
