@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xml>
+  <policy mode="deny"/>
+  <hosts>
+    <host name="mike-laptop"    mac="FF-FF-FF-CC-CA-01"/>
+    <host name="mike-phone"     mac="FF-FF-FF-CC-CA-02"/>
+    <host name="jenny-laptop"   mac="FF-FF-FF-CC-CA-03" schedule="early"  />
+    <host name="oscar-laptop"   mac="FF-FF-FF-CC-CA-04" schedule="late"  />
+    <host name="printer"        mac="FF-FF-FF-CC-CA-05"/>
+    <host name="lisa-phone"     mac="FF-FF-FF-CC-CA-06" schedule="deny" />
+  </hosts>
+  <schedules>
+    <schedule name="early">
+      <rule start="21:00" end="23:59" days="Sunday, Monday, Tuesday, Wednesday, Thursday"/>
+      <rule start="22:00" end="23:59" days="Friday, Saturday"/>
+      <rule start="00:00" end="06:00" days="All"/>
+    </schedule>
+    <schedule name="late">
+      <rule start="22:00" end="23:59" days="Sunday, Monday, Tuesday, Wednesday, Thursday"/>
+      <rule start="23:00" end="23:59" days="Friday, Saturday"/>
+      <rule start="00:00" end="06:00" days="All"/>
+    </schedule>
+    <schedule name="deny">
+      <rule days="All"/>
+    </schedule>
+  </schedules>
+</xml>

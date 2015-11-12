@@ -63,7 +63,8 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>copy /y $(TargetFileName) $(SolutionDir)dist
-copy /y $(TargetFileName).config $(SolutionDir)dist</PostBuildEvent>
+copy /y $(TargetFileName).config $(SolutionDir)dist
+copy /y default.xml $(SolutionDir)dist</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

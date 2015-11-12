@@ -9,6 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dist", "dist", "{048169AC-7
 	ProjectSection(SolutionItems) = preProject
 		dist\ArcherC7AccessControl.exe = dist\ArcherC7AccessControl.exe
 		dist\ArcherC7AccessControl.exe.config = dist\ArcherC7AccessControl.exe.config
+		dist\default.xml = dist\default.xml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "readme", "readme", "{7455922C-0AC7-411E-8962-A7F0BCE37E2D}"
