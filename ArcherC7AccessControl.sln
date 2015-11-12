@@ -11,6 +11,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dist", "dist", "{048169AC-7
 		dist\ArcherC7AccessControl.exe.config = dist\ArcherC7AccessControl.exe.config
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "readme", "readme", "{7455922C-0AC7-411E-8962-A7F0BCE37E2D}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE-GPLv2.txt = LICENSE-GPLv2.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
